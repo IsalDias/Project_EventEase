@@ -1,0 +1,16 @@
+.collapseOnSelect{
+    height: 90px;
+    background-color: rgb(59, 59, 59);
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    background-color: rgb(49, 49, 49);
+}
+
+.me-auto{
+color: rgb(255, 255, 255);
+
+}
