@@ -12,6 +12,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={event_banner_3}
           alt="First slide"
+          // dd
         />
         <Carousel.Caption>
           <h3></h3>
