@@ -1,12 +1,12 @@
 .collapseOnSelect{
-    height: 90px;
+    height: 8%;
     background-color: rgb(59, 59, 59);
 }
 
 body{
     font-family: sans-serif;
-    font-weight: 300;
-    font-size: 130%;
+    font-weight: 100;
+    font-size: 120%;
     background-color: rgb(49, 49, 49);
 }
 
@@ -14,3 +14,19 @@ body{
 color: rgb(255, 255, 255);
 
 }
+
+.button_navbar{
+
+    color:white;
+}
+
+#each_button_navbar{
+    font-size: 100%;
+}
+
+#collasible-nav-dropdown{
+    font-size: 100%;
+
+}
+
+

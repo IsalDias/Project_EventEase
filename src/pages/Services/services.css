@@ -1,0 +1,53 @@
+.first_part {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -10px; /* Adjust the value as needed */
+  background-position: center 0%; /* Adjusted background position */
+}
+
+.heading {
+  position: relative;
+  top: 34%;
+  bottom: 74%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8vw;
+  line-height: 1.1;
+  text-align: center;
+  color: #ffffff;
+}
+
+.under_heading {
+  position: relative;
+  top: 37%;
+  bottom: 90%;
+  left: 0%;
+  letter-spacing: 0.9em;
+  font-family: "Inter", sans-serif; /* Add a fallback font in case 'Inter' is not available */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+body {
+  background-color: black;
+}
+
+.searchbar {
+
+  position: relative;
+  margin-left: 33%;
+  align-items: center;
+  top: 46%;
+}
+
+
+

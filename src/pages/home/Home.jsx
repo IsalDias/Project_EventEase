@@ -3,10 +3,11 @@ import event_banner_1 from '../../Components/Assests/card_1.jpg';
 import event_banner_2 from '../../Components/Assests/event_banner_2.jpg';
 import event_banner_3 from '../../Components/Assests/event_banner_3.jpg';
 
+
 function UncontrolledExample() {
   return (
-    <div style={{padding:'20px 60px', maxheight:'auto'}}>
-    <Carousel className='carousel'>
+    <div style={{padding:'90px 300px 0px', maxheight:'auto'}}>
+    <Carousel className='carousel' style={{height:"auto"}}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -21,8 +22,9 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+        style={{ width: '10%', height: '10%' }}
           className="d-block w-100"
-          src={event_banner_2}
+          src={event_banner_2 }
           alt="Second slide"
         />
 

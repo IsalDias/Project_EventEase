@@ -31,10 +31,10 @@ export default function Events() {
 
   return (
     <>
-      <Row>
+      <Row style={{width:"100%", padding:"0 4% 0 "}}>
         {events.map((event) => {
           return (
-            <Col lg={2} md={6}>
+            <Col lg={3} md={6}>
               <EventCards title={event.title} imgLink={img}/>;
             </Col>
           );
