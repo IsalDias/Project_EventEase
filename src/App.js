@@ -1,5 +1,6 @@
 import CollapsibleExample from "../src/Components/navibar/Navibar";
 import Pathroute from "./pages/Pathroute";
+import './App.css'
 
 
 

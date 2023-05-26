@@ -9,7 +9,7 @@ export const Login = () => {
         login image
         
         </col>
-            <loginone/>
+            sdmas,md,sa
         <col>
         
 
