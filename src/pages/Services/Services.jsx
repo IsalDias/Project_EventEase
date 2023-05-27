@@ -16,7 +16,7 @@ const Services = () => {
         <p className="under_heading">Find service providers for any services</p>
       
       <div className="searchbar">
-        <SearchBar />
+        <SearchBar/>
       </div>
       </div>
     </div>
