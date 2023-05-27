@@ -12,7 +12,7 @@ function Buttontabs() {
 
   return (
     <div className='first_section_buttontabs'>
-      <Nav fill variant="tabs" defaultActiveKey="/home" activeKey={activeTab} onSelect={handleTabSelect}>
+      <Nav fill variant="tabs" defaultActiveKey="/link-1" activeKey={activeTab} onSelect={handleTabSelect}>
         <Nav.Item>
           <Nav.Link eventKey="link-1">My Events</Nav.Link>
         </Nav.Item> 

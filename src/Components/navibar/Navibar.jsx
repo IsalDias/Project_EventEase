@@ -12,12 +12,11 @@ function CollapsibleExample() {
     <div>
       <Navbar
         fixed="top"
-        collapseOnSelect
         className="collapseOnSelect"
         bg="dark"
         variant="dark"
       >
-        <Container fluid style={{ padding: "0 3%" }}>
+        <Container fluid style={{ padding: "0 3%"}}>
           <div>
             <Navbar.Brand href="/">
               <Image

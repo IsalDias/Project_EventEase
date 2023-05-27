@@ -6,13 +6,15 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import './events_myevents.css'
+
 
 function createData(Event_Name, calories, fat, carbs, protein) {
   return { Event_Name, calories, fat, carbs, protein };
 }
 
 const rows = [
-    createData('Ishan Birthday', Event, new Date(2023, 4, 11), 24, 4.0),
+    // createData('Ishan Birthday', Event, new Date(2023, 4, 11)),
   createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
   createData('Eclair', 262, 16.0, 24, 6.0),
   createData('Cupcake', 305, 3.7, 67, 4.3),
@@ -52,3 +54,4 @@ export default function Event_BasicTable() {
     </TableContainer>
   );
 }
+

@@ -1,22 +1,13 @@
-import Nav from 'react-bootstrap/Nav';
+import React from "react";
 import './aboutus.css';
+import Customerhero_1 from '../Customerhero_1/Customerhero_1'
 
 function PillsExample() {
   return (
-    <div className='about_us_firstname'>
-    <Nav variant="pills" defaultActiveKey="/home">
-      <Nav.Item>
-        <Nav.Link href="/home">Active</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-1">Option 2</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
-      </Nav.Item>
-    </Nav>
+    <div className='about_us_firstname' style={{marginTop:"8vh"}}>
+      
+      <Customerhero_1/>
+      
     </div>
   );
 }
