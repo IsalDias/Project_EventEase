@@ -1,76 +1,81 @@
 .cust_hero_first {
-    position: relative;
-    height: 92vh;
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: center 0%; /* Adjusted background position */
-  }
-  
-  .welcome {
-    position: relative;
-    top: 20%;
-    bottom: 60%;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 700%;
-    line-height: 1.1;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .underwelcome {
-    position: relative;
-    font-family: 'Inter';
-    font-style: normal;
-    text-align: center;
-    top: 20%;
-    color: #FFFFFF;
-    font-size: 130%;
-    font-weight: 320;
-  }
-  
-  .creating {
-    position: relative;
-    width: 675px;
-    height: 143px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 300%;
-    line-height: 85px;
-    color: #FF0054;
-  }
-  
-  .other_text_bottom {
-    position: absolute;
-    width: 675px;
-    height: 143px;
-    left: 1%;
-    bottom: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 110%;
-    line-height: 1%;
-    color: #FFFFFF;
-  }
-  
-  .services_button_left {
-    
-    position: relative;
-    top: 52%;
-    left: 38%;
-    width: 10%;
-  }
-  
-  .services_button_right {
+  position: relative;
+  height: 92vh;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0%;
+}
 
-    position: relative;
-    top: 52%;
-    left: 41%;
-    width: 10%;
-  }
+.welcome {
+  position: relative;
+  top: 20%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7vw;
+  line-height: 1.1;
+  text-align: center;
+  color: #ffffff;
+}
 
+.underwelcome {
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+  top: 20%;
+  color: #FFFFFF;
+  font-size: 1.3vw;
+  line-height: 90%;
+  font-weight: 300;
+}
+
+
+
+
+
+.creating {
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 8%;
+  color: #FF0054;
+}
+
+.other_text_bottom {
+  position: absolute;
+  width: 62%;
+  left: 2%;
+  bottom: 1%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4vw;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.services_button_left {
+  position: relative;
+  top: 52%;
+  left: 42%;
+  line-height: 8%;
+}
+
+.services_button_right {
+  position: relative;
+  top: 52%;
+  left: 44%;
+  line-height: 8%;
+}
+
+.services_button_left:hover{
+  color: rgb(13, 56, 0);
+}
+
+.services_button_right:hover{
+  color: rgb(13, 56, 0);
+}
