@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './login.css';
-import login_pht from '../../Components/Assests/login_photos_design.png';
-import eventease_logo from '../../Components/Assests/eventease_logo.png'
-import Login_form from '../../Components/Login_form/Login_form';
+import login_pht from '../../../Components/Assests/login_photos_design.png';
+import eventease_logo from '../../../Components/Assests/eventease_logo.png';
+
 
 const Login = () => {
   return (

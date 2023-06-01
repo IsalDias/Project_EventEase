@@ -1,13 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
-import event_banner_1 from '../../Components/Assests/card_1.jpg';
-import event_banner_2 from '../../Components/Assests/event_banner_2.jpg';
-import event_banner_3 from '../../Components/Assests/event_banner_3.jpg';
+import event_banner_1 from '../Assests/event_banner_1.jpg';
+import event_banner_2 from '../Assests/event_banner_2.jpg';
+import event_banner_3 from '../Assests/event_banner_1.jpg';
 
 
-function UncontrolledExample() {
+function Home_Carrousel() {
   return (
-    <div style={{padding:'90px 300px 0px', maxheight:'auto'}}>
-    <Carousel className='carousel' style={{height:"auto"}}>
+    <div style={{height:"1%" }}>
+    <Carousel className='carousel'>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -16,8 +16,7 @@ function UncontrolledExample() {
           // dd
         />
         <Carousel.Caption>
-          <h3></h3>
-          <p></p>
+         
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -29,8 +28,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3></h3>
-          <p></p>
+         
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -41,10 +39,7 @@ function UncontrolledExample() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -52,4 +47,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Home_Carrousel;

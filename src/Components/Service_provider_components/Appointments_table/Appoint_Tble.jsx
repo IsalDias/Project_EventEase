@@ -11,6 +11,7 @@ import './Appoint_Tble.css';
 
 const StyledTableCell = styled(TableCell)`
   font-family: 'Inter';
+  color:"white";
 `;
 
 const TransparentTableRow = styled(TableRow)`
@@ -46,14 +47,14 @@ export default function Appoint_Tble() {
             <StyledTableCell className="table-cell table-header" align="left">Time</StyledTableCell>
             <StyledTableCell className="table-cell table-header" align="left">Comm. method</StyledTableCell>
             <StyledTableCell className="table-cell table-header" align="lefts">Description</StyledTableCell>
-            <StyledTableCell className="table-cell table-header" align="lefts"> </StyledTableCell>
+            <StyledTableCell className="table-cell table-header" align="lefts"> column</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TransparentTableRow
               key={row.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              sx={{ '&:last-child td, &:last-child th': { border:0 } }}
             >
               <StyledTableCell component="th" scope="row" className="table-cell">{row.name}</StyledTableCell>
               <StyledTableCell align="left" className="table-cell">{row.calories}</StyledTableCell>

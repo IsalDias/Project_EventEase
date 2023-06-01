@@ -1,6 +1,8 @@
 import React from "react";
 import './aboutus.css';
-import Customerhero_1 from '../Customerhero_1/Customerhero_1'
+import Customerhero_1 from '../../../Components/Customer_Components/Customerhero_1/Customerhero_1'
+
+
 
 function PillsExample() {
   return (

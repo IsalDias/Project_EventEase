@@ -1,7 +1,7 @@
 import React from "react";
 import "./services.css";
-import Services_photo from "../../Components/Assests/Services_photo.png";
-import SearchBar from "../../Components/Search/Search";
+import Services_photo from "../../../Components/Assests/Services_photo.png";
+import SearchBar from "../../../Components/Search/Search";
 
 const Services = () => {
   return (

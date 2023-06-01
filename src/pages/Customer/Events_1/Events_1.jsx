@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttontabs from '../../Components/Tabs/Buttontabs'
+import Buttontabs from '../../../Components/Tabs/Buttontabs'
 import './events_1.css'
 
 function Events_1() {

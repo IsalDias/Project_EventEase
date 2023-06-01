@@ -1,6 +1,6 @@
 import React from 'react';
 import './customerhero_1.css';
-import Customer_hero1 from '../../Components/Assests/Customer_hero1.png';
+import Customer_hero1 from '../../Assests/Customer_hero1.png';
 import Button from '@mui/material/Button';
 
 export default function Customerhero_1() {

@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
-import Home from './home/Home'
-import Events_1 from '../pages/Events_1/Events_1'
-import Services from '../pages/Services/Services'
-import Aboutus from '../pages/About us/Aboutus';
-import Login from '../pages/Login/Login'
+import Ann_Hero from '../pages/Annonymous/Ann_Hero/Ann_Hero'
+import Events_1 from '../pages/Customer/Events_1/Events_1'
+import Services from '../pages/Customer/Services/Services'
+import Aboutus from '../pages/Customer/About us/Aboutus';
+import Login from '../pages/Annonymous/Login/Login'
 import { Appointments } from './Service_provider/Appointments/Appointments'
 
 
@@ -14,7 +14,7 @@ export default function Pathroute() {
     <div>
       <Router>
         <Routes>
-            <Route exact path = "/" element={<Home/>}></Route>
+            <Route exact path = "/" element={<Ann_Hero/>}></Route>
             <Route path = "/events" element={<Events_1/>}></Route>
             <Route path='/services' element={<Services/>}></Route>
             <Route path='/aboutus' element={<Aboutus/>}></Route>

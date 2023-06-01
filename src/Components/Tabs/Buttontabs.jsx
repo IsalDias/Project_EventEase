@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import './buttontabs.css';
-import Event_BasicTable from '../../Components/Events_myevents'
+import Event_BasicTable from '../../Components/Customer_Components/Events/MyEvents/Events_myevents'
 
 function Buttontabs() {
   const [activeTab, setActiveTab] = useState('link-1'); // Initialize the active tab state
