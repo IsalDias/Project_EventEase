@@ -1,0 +1,39 @@
+.first_section_buttontabs {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; Center the button group horizontally */
+}
+
+.button-container {
+  display: flex;
+  gap: 3%; /* Adjust the gap between buttons as needed */
+  justify-content: center; /* Center the buttons horizontally */
+  
+}
+
+.button {
+  border: none;
+  border-radius: 1.8%; /* Make the buttons round */
+  background-color: transparent; /* Set the background color of buttons */
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 0% 0.25%;
+  margin: 0.25% 0; /* Add vertical margin to create equal gap between buttons */
+  white-space: nowrap;
+}
+
+.button.active {
+  background-color: transparent;
+  color: #ff7b00fb; /* Set the active color of button text */
+}
+
+
+.content {
+  position: relative;
+  top: 4vh;
+  margin: 0 -10%;
+  padding: -1000px;
+}

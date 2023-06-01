@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Change the font size and color */
+.table-cell {
+    font-size: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Change the header color */
+  .table-header {
+    background-color: black;
+  }
+  
