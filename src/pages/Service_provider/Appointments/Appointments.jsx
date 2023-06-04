@@ -4,9 +4,12 @@ import './appointments.css'
 
 export const Appointments = () => {
   return (
-    <div style={{margin:"5% 0% 0 0"}}>
+    <div style={{margin:"6% 0% 0 0"}}>
       <h1 className='appt_header'>Appointments</h1>
+      <div style={{position:"relative", top:"100%"}}>
       <Top_nav/>
+      </div>
+      
       </div>
   )
 }

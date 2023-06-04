@@ -1,23 +1,24 @@
 
 .App {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   
   .Auth-form-container {
-    display: flex;
+
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
   }
   
   .Auth-form {
-    width: 420px;
+    width: 50vw;
     box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-radius: 8px;
     background-color: white;
+    height: 80vh;
   }
   
   .Auth-form-content {
@@ -33,9 +34,9 @@
     font-weight: 800;
   }
   
-  label {
+  /* label {
     font-size: 14px;
     font-weight: 600;
     color: rgb(34, 34, 34);
-  }
+  } */
   

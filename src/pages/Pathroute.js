@@ -6,6 +6,7 @@ import Services from '../pages/Customer/Services/Services'
 import Aboutus from '../pages/Customer/About us/Aboutus';
 import Login from '../pages/Annonymous/Login/Login'
 import { Appointments } from './Service_provider/Appointments/Appointments'
+import Ann_Register from '../pages/Annonymous/Ann_Register/Ann_Register'
 
 
 export default function Pathroute() {
@@ -20,6 +21,7 @@ export default function Pathroute() {
             <Route path='/aboutus' element={<Aboutus/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
             <Route path='/serviceprovider/appointments' element={<Appointments/>}></Route>
+            <Route path='/register' element={<Ann_Register/>}></Route>
         </Routes>
       </Router>
     </div>
