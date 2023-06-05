@@ -1,7 +1,6 @@
 import React from 'react';
 import Ann_reg_back from '../Ann_Register/Assests/Ann_reg_back.png';
 import './ann_register.css';
-import GradientStrokeRectangle from '../Ann_Register/Ann_Reg_Gradient_rectangle/Gradient_rect';
 import { Button } from '@mui/material';
 import { Row, Col, Container } from 'react-bootstrap';
 
