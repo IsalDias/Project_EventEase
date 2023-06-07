@@ -1,0 +1,67 @@
+.serv_prov_welcome{
+    top: 20%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vw;
+    line-height: 1.1;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 13%;
+    
+}
+
+.Serv_prov_Digital{
+    color: rgba(255, 92, 0, 1);
+    font-style: normal;
+    font-weight: 700;
+    
+
+}
+
+.Serv_prov_underwelcome{
+    position: relative;
+    font-style: normal;
+    font-family: 'Inter';
+    text-align: center;
+    top: 20%;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+
+}
+
+.Serv_prov_button_appt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #111D27;
+    border-radius: 3%;
+    border-color: white;
+    padding: 3%;
+}
+
+.Serv_prov_button_bookings{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #111D27;
+    border-radius: 3%;
+    border-color: white;
+    padding: 3%;
+}
+
+.Serv_prov_button_Portfolio{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #111D27;
+    border-radius: 3%;
+    border-color: white;
+    padding: 3%;
+}

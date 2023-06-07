@@ -1,0 +1,21 @@
+.Serv_Prov_form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+    margin: 0% 18%;
+}
+
+.addcontact_button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 70%;
+    font-weight: bold;
+    border-radius: 2%;
+    border-color: transparent;
+
+}

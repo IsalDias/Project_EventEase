@@ -43,14 +43,14 @@ function Cust_reg() {
           }
           break;
         case 'phoneNumber':
-          // Validate phone number (Sri Lankan format: XXXXXXXXXX)
+          
           const phoneRegex = /^[0-9]{10}$/;
           if (!phoneRegex.test(value)) {
             error = 'Invalid phone number format.';
           }
           break;
         case 'nicNumber':
-          // Validate NIC number (Sri Lankan format: XXXXXXXXXXV)
+          
           const nicRegex = /^[0-9]{9}[Vv]$/;
           if (!nicRegex.test(value)) {
             error = 'Invalid NIC number format.';
@@ -109,6 +109,7 @@ function Cust_reg() {
       console.log('Form contains errors. Please fix them.');
     }
   };
+
 
   return (
     <div className="form-container">
@@ -320,7 +321,7 @@ function Cust_reg() {
           </Col>
         </Row>
 
-        <Row style={{marginTop:"3%"}}>
+        {/* <Row style={{marginTop:"3%"}}>
           <Col xs={12} lg={12}>
           <span>
             <p style={{color:"white"}}>
@@ -329,19 +330,22 @@ function Cust_reg() {
             </p>
           </span>
           </Col>
-        </Row>
+        </Row> */}
+
+
+<br></br>
 
         <Row>
-        <button type="submit" style={{width:"10%"}}>submit</button>
+        <button type="submit" style={{width:"25%",backgroundColor:"silver", marginLeft:"90%"}}  >Register</button>
         </Row>
         <br></br>
-        <br></br>
+                <br></br>
 
         <Row>
           <Col style={{display:"flex"}}>
           <p style={{color:"white"}}>Already have an account?</p>
           
-          <Button style={{backgroundColor:"red", borderColor:"red", margin:"0% 3%"}}> Login </Button>
+          <Button style={{backgroundColor:"red", borderColor:"red", margin:"0% 3%"}} href='/login'> Login </Button>
           </Col>
           <Col> 
           
