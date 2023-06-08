@@ -10,7 +10,7 @@ export default function Ann_Register() {
     <div
     style={{ backgroundImage: `url(${Ann_reg_back})`, 
     display: "flex",
-    height: "98vh",
+    height: "94%",
     backgroundColor: "rgb(0, 0, 0)",
     backgroundPosition: "center",
     width: "100%" ,
@@ -22,11 +22,13 @@ export default function Ann_Register() {
 
 
         <Row>
-          <Col style={{margin:"3% 4% 0%"}}>
+          <Col style={{margin:"3% 4% 0%"}} xs={12} lg={6}  >
         <p className='ann_login_text'>Already have an Account ?</p>
-        </Col>
-        <Col style={{position:"relative", top:"58px", right:"680px"}}>
         <Button variant='contained' style={{backgroundColor:"red"}} > Login </Button>
+        </Col>
+        <Col style={{position:"relative", top:"40px", }} >
+        
+
           </Col>
         </Row>
 
@@ -45,7 +47,7 @@ export default function Ann_Register() {
 
       
     <Row>
-      <Col xs={12} lg={12} style={{margin:"9.5% 0% 0% 0%"}} >
+      <Col xs={12} lg={12} style={{margin:"0% 1.5% 0% 1%"}} >
     <span>
       <p className='Ann_reg_footer'>"Welcome to Eventease, the premier platform connecting
         customers with top-rated service providers for all their event planning needs! Whether you're organizing a wedding,<br /> birthday party, corporate event, or

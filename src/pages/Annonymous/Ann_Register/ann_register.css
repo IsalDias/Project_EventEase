@@ -2,11 +2,9 @@
   .Ann_reg_footer {
     font-family: 'Inter';
     font-style: normal;
-    /* font-weight: 30%; */
-    /* font-size: 50%; */
     text-align: center;
     color: #ffffff;
-    justify-content: center;
+    font-size: 90%;
   }
    
   .ann_reg_button_1,
@@ -14,7 +12,7 @@
     width: 100%;
     position: relative;
     display: flex;
-    padding: 18% 12% 10% 12%;
+    padding: 15% 12% 10% 12%;
     margin-left: 4%;
     
   }

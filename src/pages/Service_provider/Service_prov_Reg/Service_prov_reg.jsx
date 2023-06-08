@@ -62,8 +62,11 @@ export const Service_prov_reg = () => {
 
   return (
     <div style={{ overflowX: 'hidden'}} className='Serv_Prov_form-container'>
+  
        
       <h2 className="form-heading">Service Provider Registration</h2>
+
+     
       
       <form onSubmit={handleSubmit}>
         <Row>
@@ -191,7 +194,7 @@ export const Service_prov_reg = () => {
             </label>
 
         </Row>
-
+<br></br>
         <Row>
           <Col xs={12} lg={6}>
             <label>
